@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    background: white;
+    height: 70vh;
+    background: radial-gradient(circle, rgb(163, 134, 197) 0%, rgb(104, 75, 132) 100%);
+
+}
+
+.main {
+    height: 60vh;
+    margin: 40px 150px 100px 0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.main div p {
+    margin-right: 100PX;
+}
+
+form div {
+    margin: 20px;
+}
+
+div p {
+    text-align: center;
+}
+
+input {
+    height: 30PX;
+    width: 500px;
+    color: rgb(53, 15, 71);
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: rgba(228, 160, 253, 0.662);
+
+}
+
+textarea {
+    width: 500px;
+    color: rgb(53, 15, 71);
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: rgba(92, 69, 11, 0.662);
+}
+
+
+.main div {
+    display: flex;
+    justify-content: center;
+}
+
+.H2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0%;
+}
+
+img {
+    padding-right: 80px;
+    width: 450px;
+    opacity: 0.8;
+}
+
+.copyright2 {
+    display: none;
+}
+
+@media(max-width:1200px) {
+
+    .main {
+        margin: 40px 20px 100px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    input {
+        height: 20PX;
+        width: 400px;
+
+    }
+
+    textarea {
+        width: 400px;
+    }
+
+    img {
+        padding-right: 80px;
+        width: 300px;
+        opacity: 0.8;
+    }
+
+}
+
+
+
+@media(max-width:800px) {
+    .H2 {
+        font-size: 15px;
+
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        height: 30PX;
+        width: 300px;
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 70px;
+        font-size: 10px;
+
+    }
+
+    img {
+        display: none;
+    }
+
+    form div {
+        margin: 20px 0px;
+    }
+
+}
+
+@media(max-width:400px) {
+
+
+    input {
+        height: 25PX;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 50px;
+        font-size: 10px;
+
+
+    }
+
+    img {
+        display: none;
+    }
+
+
+}
